@@ -7,7 +7,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: LidoDAO
-    network: oone-dev
+    network: oone-chain
     source:
       abi: LidoDAO
       address: "0x978ae109b6109943C0AB57e20005f4B41663dce1"
@@ -29,7 +29,7 @@ dataSources:
       file: ./src/LidoDAO.ts
   - kind: ethereum/contract
     name: Lido
-    network: oone-dev
+    network: oone-chain
     source:
       abi: Lido
       address: "0x6e64274cBb2E465C5a2cA523586359a245e8Ba4D"
@@ -94,7 +94,7 @@ dataSources:
       file: ./src/Lido.ts
   - kind: ethereum/contract
     name: LegacyOracle
-    network: oone-dev
+    network: oone-chain
     source:
       abi: LegacyOracle
       address: "0xd01569b36162E6caA31dc9f66931fd154eBA0B42"
@@ -138,7 +138,7 @@ dataSources:
       file: ./src/LegacyOracle.ts
   - kind: ethereum/contract
     name: NodeOperatorsRegistry
-    network: oone-dev
+    network: oone-chain
     source:
       abi: NodeOperatorsRegistry
       address: "0x700472D9FE2F3D30ebaAAA5B2cAd8411C0b87a27"
@@ -177,7 +177,7 @@ dataSources:
       file: ./src/NodeOperatorsRegistry.ts
   - kind: ethereum/contract
     name: Voting
-    network: oone-dev
+    network: oone-chain
     source:
       abi: Voting
       address: "0x1c541985d5352e94451c3d66Afd61CEb2Bd548f5"
@@ -217,7 +217,7 @@ dataSources:
       file: ./src/Voting.ts
   - kind: ethereum/contract
     name: StakingRouter
-    network: oone-dev
+    network: oone-chain
     source:
       abi: StakingRouter
       address: "0xA8987f120e66BdF225c1f7Eb2906EE03B1cf7Eb6"
@@ -237,7 +237,7 @@ dataSources:
       file: ./src/StakingRouter.ts
   - kind: ethereum/contract
     name: AccountingOracle
-    network: oone-dev
+    network: oone-chain
     source:
       abi: AccountingOracle
       address: "0x94D0fE3d5ef9C600210F8c0aED54A0635b78B2a7"
@@ -262,7 +262,7 @@ dataSources:
       file: ./src/AccountingOracle.ts
   - kind: ethereum/contract
     name: WithdrawalQueue
-    network: oone-dev
+    network: oone-chain
     source:
       abi: WithdrawalQueue
       address: "0x1b797559CB4d88C25A2E811E594AaA341Db22077"
@@ -304,7 +304,7 @@ dataSources:
       file: ./src/WithdrawalQueue.ts
   - kind: ethereum/contract
     name: HashConsensus
-    network: oone-dev
+    network: oone-chain
     source:
       abi: HashConsensus
       address: "0x759a2B0BF980Cdf99f9C1a51A203c9c03e72a9AF"

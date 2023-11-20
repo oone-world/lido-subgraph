@@ -45,31 +45,31 @@ const LIDO_ADDRESSES = new TypedMap<string, string>()
 LIDO_ADDRESSES.set('mainnet', '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84')
 LIDO_ADDRESSES.set('goerli', '0x1643E812aE58766192Cf7D2Cf9567dF2C37e9B7F')
 LIDO_ADDRESSES.set('holesky', '0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034')
-LIDO_ADDRESSES.set('oone-dev', '0x6e64274cBb2E465C5a2cA523586359a245e8Ba4D')
+LIDO_ADDRESSES.set('oone-chain', '0x6e64274cBb2E465C5a2cA523586359a245e8Ba4D')
 
 const NOS_ADDRESSES = new TypedMap<string, string>()
 NOS_ADDRESSES.set('mainnet', '0x55032650b14df07b85bF18A3a3eC8E0Af2e028d5')
 NOS_ADDRESSES.set('goerli', '0x9D4AF1Ee19Dad8857db3a45B0374c81c8A1C6320')
 NOS_ADDRESSES.set('holesky', '0x595F64Ddc3856a3b5Ff4f4CC1d1fb4B46cFd2bAC')
-NOS_ADDRESSES.set('oone-dev', '0x700472D9FE2F3D30ebaAAA5B2cAd8411C0b87a27')
+NOS_ADDRESSES.set('oone-chain', '0x700472D9FE2F3D30ebaAAA5B2cAd8411C0b87a27')
 
 const TREASURY_ADDRESSES = new TypedMap<string, string>()
 TREASURY_ADDRESSES.set('mainnet', '0x3e40D73EB977Dc6a537aF587D48316feE66E9C8c')
 TREASURY_ADDRESSES.set('goerli', '0x4333218072D5d7008546737786663c38B4D561A4')
 TREASURY_ADDRESSES.set('holesky', '0xE92329EC7ddB11D25e25b3c21eeBf11f15eB325d')
-TREASURY_ADDRESSES.set('oone-dev', '0xb189603A704C4dB1c295dB82BB8A225Aa2F4501e')
+TREASURY_ADDRESSES.set('oone-chain', '0xb189603A704C4dB1c295dB82BB8A225Aa2F4501e')
 
 const SR_ADDRESSES = new TypedMap<string, string>()
 SR_ADDRESSES.set('mainnet', '0xFdDf38947aFB03C621C71b06C9C70bce73f12999')
 SR_ADDRESSES.set('goerli', '0xa3Dbd317E53D363176359E10948BA0b1c0A4c820')
 SR_ADDRESSES.set('holesky', '0xd6EbF043D30A7fe46D1Db32BA90a0A51207FE229')
-SR_ADDRESSES.set('oone-dev', '0xA8987f120e66BdF225c1f7Eb2906EE03B1cf7Eb6')
+SR_ADDRESSES.set('oone-chain', '0xA8987f120e66BdF225c1f7Eb2906EE03B1cf7Eb6')
 
 const BURNER_ADDRESSES = new TypedMap<string, string>()
 BURNER_ADDRESSES.set('mainnet', '0xD15a672319Cf0352560eE76d9e89eAB0889046D3')
 BURNER_ADDRESSES.set('goerli', '0x20c61C07C2E2FAb04BF5b4E12ce45a459a18f3B1')
 BURNER_ADDRESSES.set('holesky', '0x4E46BD7147ccf666E1d73A3A456fC7a68de82eCA')
-BURNER_ADDRESSES.set('oone-dev', '0x657D7Ca8A4709605F92923BE0AEb90E3650D0C0f')
+BURNER_ADDRESSES.set('oone-chain', '0x657D7Ca8A4709605F92923BE0AEb90E3650D0C0f')
 
 // We presume here that initially insurance fund was the treasury
 const getInsuranceFund = (): string => {
@@ -121,7 +121,7 @@ const LIDO_APP_IDS = new TypedMap<string, Bytes>()
 LIDO_APP_IDS.set('mainnet', LIDO_APP_ID_MAINNET)
 LIDO_APP_IDS.set('goerli', LIDO_APP_ID_GOERLI)
 LIDO_APP_IDS.set('holesky', LIDO_APP_ID_HOLESKY)
-LIDO_APP_IDS.set('oone-dev', LIDO_APP_ID_OONE_DEV)
+LIDO_APP_IDS.set('oone-chain', LIDO_APP_ID_OONE_DEV)
 export const LIDO_APP_ID = LIDO_APP_IDS.get(network)
 
 // NOR App
@@ -141,7 +141,7 @@ const NOR_APP_IDS = new TypedMap<string, Bytes>()
 NOR_APP_IDS.set('mainnet', NOR_APP_ID_MAINNET)
 NOR_APP_IDS.set('goerli', NOR_APP_ID_GOERLI)
 NOR_APP_IDS.set('holesky', NOR_APP_ID_HOLESKY)
-NOR_APP_IDS.set('oone-dev', NOR_APP_ID_OONE_DEV)
+NOR_APP_IDS.set('oone-chain', NOR_APP_ID_OONE_DEV)
 export const NOR_APP_ID = NOR_APP_IDS.get(network)
 
 // Oracle App
@@ -161,7 +161,7 @@ const ORACLE_APP_IDS = new TypedMap<string, Bytes>()
 ORACLE_APP_IDS.set('mainnet', ORACLE_APP_ID_MAINNET)
 ORACLE_APP_IDS.set('goerli', ORACLE_APP_ID_GOERLI)
 ORACLE_APP_IDS.set('holesky', ORACLE_APP_ID_HOLESKY)
-ORACLE_APP_IDS.set('oone-dev', ORACLE_APP_ID_OONE_DEV)
+ORACLE_APP_IDS.set('oone-chain', ORACLE_APP_ID_OONE_DEV)
 export const ORACLE_APP_ID = ORACLE_APP_IDS.get(network)
 
 // Voting App
@@ -181,7 +181,7 @@ const VOTING_APP_IDS = new TypedMap<string, Bytes>()
 VOTING_APP_IDS.set('mainnet', VOTING_APP_ID_MAINNET)
 VOTING_APP_IDS.set('goerli', VOTING_APP_ID_GOERLI)
 VOTING_APP_IDS.set('holesky', VOTING_APP_ID_HOLESKY)
-VOTING_APP_IDS.set('oone-dev', VOTING_APP_ID_OONE_DEV)
+VOTING_APP_IDS.set('oone-chain', VOTING_APP_ID_OONE_DEV)
 export const VOTING_APP_ID = VOTING_APP_IDS.get(network)
 
 // https://docs.lido.fi/deployed-contracts/
@@ -273,7 +273,7 @@ PROTOCOL_UPG_BLOCKS.set('holesky', [
   BigInt.fromI32(30592), // V1_SHARES
   BigInt.fromI32(30592), // V2
 ])
-PROTOCOL_UPG_BLOCKS.set('oone-dev', [
+PROTOCOL_UPG_BLOCKS.set('oone-chain', [
   BigInt.fromI32(612295), // V1
   BigInt.fromI32(612295), // V1_SHARES
   BigInt.fromI32(612295), // V2
