@@ -124,5 +124,43 @@
       "address": "0xa067FC95c22D51c3bC35fd4BE37414Ee8cc890d2",
       "startBlock": 30731
     }
+  },
+  "oone-dev": {
+    "LidoDAO": {
+      "address": "0x978ae109b6109943C0AB57e20005f4B41663dce1",
+      "startBlock": 612294
+    },
+    "Lido": {
+      "address": "0x6e64274cBb2E465C5a2cA523586359a245e8Ba4D",
+      "startBlock": 612294
+    },
+    "LegacyOracle": {
+      "address": "0xd01569b36162E6caA31dc9f66931fd154eBA0B42",
+      "startBlock": 612294
+    },
+    "NodeOperatorsRegistry": {
+      "address": "0x700472D9FE2F3D30ebaAAA5B2cAd8411C0b87a27",
+      "startBlock": 612294
+    },
+    "Voting": {
+      "address": "0x1c541985d5352e94451c3d66Afd61CEb2Bd548f5",
+      "startBlock": 612294
+    },
+    "StakingRouter": {
+      "address": "0xA8987f120e66BdF225c1f7Eb2906EE03B1cf7Eb6",
+      "startBlock": 612311
+    },
+    "AccountingOracle": {
+      "address": "0x94D0fE3d5ef9C600210F8c0aED54A0635b78B2a7",
+      "startBlock": 612314
+    },
+    "WithdrawalQueue": {
+      "address": "0x1b797559CB4d88C25A2E811E594AaA341Db22077",
+      "startBlock": 612306
+    },
+    "HashConsensus": {
+      "address": "0x759a2B0BF980Cdf99f9C1a51A203c9c03e72a9AF",
+      "startBlock": 612315
+    }
   }
 }
